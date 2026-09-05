@@ -38,8 +38,8 @@ underlying GA4 event data:
 * Full business recommendations (retargeting timing, checkout friction reduction, login prompts, "complete the look" bundling) are detailed in each notebook's closing section.
 
 ## Tools Used
-Python (pandas, numpy, scikit-learn, statsmodels, lifelines, scikit-survival, XGBoost,
-LightGBM, SHAP, mlxtend), OpenAI API (`text-embedding-3-small` for item-similarity
+* Python (pandas, numpy, scikit-learn, statsmodels, lifelines, scikit-survival, XGBoost,LightGBM, SHAP, mlxtend)
+* OpenAI API (`text-embedding-3-small` for item-similarity
 embeddings, GPT-4o-mini for item-pair relationship classification)
 
 ## Repository Contents
