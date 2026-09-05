@@ -31,7 +31,9 @@ underlying GA4 event data:
 * Summary tables reporting, for every focal product/category: the associated item, conditional joint-purchase probability, support, and lift.
 
 ## Key Results
-* **Conversion window is narrow:** most purchases happen within the first few days of first item view; users who don't convert quickly rarely convert within the same consideration cycle. Browsing focus (how concentrated a user's viewed items are) is the strongest behavioral driver of both conversion speed and in-session purchase, outweighing marketing/channel variables and user history.
+* **Conversion window is narrow:** most purchases happen within the first few days of first item view; users who don't convert quickly rarely convert within the same consideration cycle.
+  
+  Browsing focus (how concentrated a user's viewed items are) is the strongest behavioral driver of both conversion speed and in-session purchase, outweighing marketing/channel variables and user history.
 * **Cart abandonment is dominated by two signals:** time from cart to checkout and login status.
   * Users who move quickly from cart to checkout, and users who are logged in, are substantially more likely to complete the purchase: logged-in users add to cart and convert at markedly higher rates than guests.
   * A tuned gradient-boosted model on these features achieves strong discrimination between purchasers and abandoners, with a tuned probability threshold used to flag at-risk sessions for intervention.
